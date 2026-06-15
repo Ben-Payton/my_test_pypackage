@@ -1,4 +1,4 @@
-import my_test_pypackage as my_test_pypackage
+import src.my_test_pypackage as my_test_pypackage
 
 
 def test_add_success():

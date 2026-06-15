@@ -17,6 +17,8 @@ Run `uv add ruff --dev` and
 
 # Testing and Linting
 
+If you are using a tests folder ensure there is an __init__.py file so pytest recognizes it is not a flat directory structure. Additionally, ensure that you are importing src.<package_name>
+
 testing is run with `uv run pytest`
 linting is run with `uv run ruff check`
 and `uv run ruff format` 
