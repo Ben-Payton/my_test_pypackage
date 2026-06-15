@@ -9,9 +9,12 @@ authors = [
 requires-python = ">=3.10"
 dependencies = []
 
-[project.scripts]
-my-test-pypackage = "my_test_pypackage:main"
-
 [build-system]
 requires = ["uv_build>=0.11.20,<0.12.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.0",
+    "ruff>=0.15.17",
+]
