@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from my-test-pypackage!")
+from .my_math import (
+    my_add as my_add,
+)
